@@ -1,0 +1,20 @@
+
+
+/*Incorporando ,Inportando e usando INLIne*/
+
+/*
+  Estilo aplicado inline  -Exemplo-  <h1 style="color: rgb(28, 199, 28); ">texto</h1>
+
+  Estilo incorporado  -Exemplo-     <style type="text/css">
+                                        p { color: #000FF};
+                                    </style>
+
+  Estilo Importado (externo) -Exemplo- <link rel="stylesheet" type="text/css" href="estilo.css" media="all">                         
+
+*/
+
+/* OBs: o atributo =>  media=""
+atribui ao estilo qual os dispositivos em que você deseja aplicar
+as alterações.
+
+*/
