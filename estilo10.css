@@ -1,0 +1,29 @@
+/* 9 FONTES SEGURAS
+'são fontes que normalmente por padrão tem em todos os sistemas'
+- Arial
+- Arial Black
+- Comic Sans MS
+- courier new
+- Impact
+- Times New Roman
+- Trebuchet MS
+- Verdana
+*/
+
+/*FONTES GENÉRICAS
+'são fontes definidas como padrão caso a fonte aplicada não tenha sucesso'
+- Serif    >>serifada<<
+- Sans-Serif  >>sem serifa<<
+- Cursive  >>se assemelham a uma escrita de mão livre<<
+- Fantasy  >>com caracteristicas decorativas<<
+- Monospace >>monoespaçadas se limitam a escrita de uma maquina de escrever manual<<
+*/
+
+/*PROPRIEDADE DAS FONTES*/
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*define uma familia de fontes aleatoriamente,a útima da lista será a fonte genérica*/
+    font-style: italic; /*estilo da fonte com opção de : italico,obliquo ou normal*/
+    font-weight: bold; /*define a tonalidade da fonte baseada no parâmetro peso (bold -lighter ,ou de 100 a 900)*/
+    font-variant: small-caps ; /*Transforma as letras minúsculas em maiúsculas (ficam um pouco menor das originalmente Maiusculas) */
+    font-size: 30px ; /* define o tamanho do texto*/
+}
