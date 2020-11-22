@@ -1,0 +1,47 @@
+
+/*altera a cor do link visitado*/
+a:visited{
+    color: green;
+}
+
+/*muda o estilo quando focamos dentro da campo*/
+input[type='text']:focus{
+    background-color: yellow;
+}
+
+/*Altera o estilo quando passamos o mouse sobre o nome*/
+label:hover{
+    background-color: yellowgreen;
+}
+
+/*Atera a cor do texto quando está ativado*/
+p:active {
+    color: rgb(192, 9, 177);
+}
+
+/*muda o estilo do elemento em lang*/
+p:lang(en){
+    color: rgb(36, 77, 129);
+}
+
+/*altera o estilo da primeira linha do texto*/
+.tx:first-line{
+    color: rgb(199, 65, 50);
+}
+
+/*Altera o estilo da primeira letra do texto*/
+.tx:first-letter {
+    font-size: 40px;
+    color: rgb(4, 90, 38);
+}
+
+/*insere um texto ou img no inicio do bloco*/
+.tx:before{
+    content: 'Inicio';
+}
+
+/*insere um texto ou img ao final do bloco*/
+.tx:after{
+    content: 'FIM';
+    color: sienna;
+} 
