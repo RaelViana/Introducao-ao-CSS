@@ -1,0 +1,26 @@
+ 
+ /*SELETOR UNIVERSAL   (representado por um arsterístico)  */
+ * {     color: #006699; }
+     
+ 
+
+
+ /*SELETOR DE ELEMENTO OU TIPO (representado pelo elemento que deseja modfificar) */
+ p{     color: #1821a8 ;}
+
+
+ /*SELETOR CLASSE (reprresentado pelo nome da classe dentro da tag)*/
+.destaque{ color: #cc0000;}
+
+.detalhe {text-decoration: underline;}
+
+
+/*SELETOR ID (representado por '#' mais o nome atribuido a ele*/
+#introducao {background-color: #ffcc33;}
+
+
+/*SELETOR ATRIBUTO (representado por um elemento dentra da tag)*/
+em[title=local]{
+    color: #215c0a;
+    font-size: 20px;
+}
