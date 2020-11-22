@@ -1,0 +1,29 @@
+/*Nivel de relevância na aplicação de estilo
+1.Folha do navegador
+2.Folha do Usuário
+3.Folha do Autor //são os estilos que nós criamos
+  a)Estilo Externo (importado)
+  b)Estilo incorporado (head) //aplicado na teg style
+  c)Estilo Inline //aplicado diretamente no código
+4. ! important do Autor
+5. ! important do Usuário   
+*/
+
+div > p {
+    color: red;
+}
+
+p {
+    color: #0000FF !important; /*Confere a essa estilização como a mais importatnte*/ 
+}
+
+body {
+    color: #000000; /*Todos os filhos dentro da tag 'body' herdam o estilo*/
+}
+
+/*Sequencia  de especifidade
+a.Inline                              ex. style=""
+b.IDs                                 ex. #menu{}
+c.Classes, pseudoclasses ,atributos   ex. div p {}
+d.Elementos e pseudoelementos         ex. p {}    
+*/
