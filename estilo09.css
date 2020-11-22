@@ -1,0 +1,39 @@
+/* MEDIDAS ABSOLUTAS (não dependem de um valor de referência)
+   5in -medida em polegadas
+   5cm -medida em centimetros
+   5mm -medida em milimetros
+   5pt -medida ponto tipográfica //utilizadas em mídia de impressão
+   5pc -medida pic tipográfica
+ */
+
+ /*MEDIDAS RELATIVAS
+  5em -igual ao tamanho de uma fonte de referência
+  5ex -igual a altura da letra x minúscula
+  5px - pixel (uma das mais utilizadas)
+ */
+
+
+
+ /*seletor universal de tamanho de fonte */
+ * {
+    font-size: 10px;
+ }
+
+ h2 {
+    font-size: 2em; /*exemplo : 2em seria 2 vezes 10px então 'h2=20px' */
+}
+
+/*aplicando a margem relativa ao tamanho do texto em pixel*/
+h1,h2 {
+    margin-left: 1em; /*exemplo: 1em equivale a 1 vez tamanho do texto de margem esquerda em 'h1 e h2'  */
+}
+
+/*definindo medidas relativas ao parágrafo*/
+
+p{
+    font-size: 0.6em; 
+}
+
+/*Medidass percentuais
+//exemlplo h1 { font-size: 50%;} seria 50% da medida originalmente atribuida ao HTML
+*/ 
