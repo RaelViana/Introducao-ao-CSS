@@ -1,0 +1,12 @@
+/*PROPRIEDADES DE DECORAÇÃO*/
+p {
+    text-decoration: underline; /*permite sublinhar o texto*/
+    text-decoration: overline; /*permite adicionar linha continua acima do texto*/
+    text-decoration: line-through; /*permite cortar o texto com uma linha continua */   
+
+    text-transform: capitalize; /*permite que todas as palavras começem com a primeira letra Maiúsculas*/    
+    text-transform: lowercase; /*permite que todas as palavras fiquem minúsculas*/
+    text-transform: uppercase; /*permite que todas as palavras fiquem Maiúsculas*/
+    
+
+}
