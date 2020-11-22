@@ -1,0 +1,17 @@
+/* (seletor descendente )altera o elemento sem a necessidade de informar o filho*/
+div em {color: red;}
+    
+
+/*(seletor filho)altera o elemento especificando o filho*/
+div > em { text-decoration: underline;}
+   
+
+
+/*(seletor irmão adjacente) seleciona o elemento após o irmão adjacente */
+p + p{ color: blue;}
+    
+
+p + h2 { text-decoration: underline ;} 
+
+    
+
