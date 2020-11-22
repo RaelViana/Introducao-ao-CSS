@@ -1,0 +1,56 @@
+ /* aplicação da margem lados pesonalizados
+ //topo
+ //lado direito
+ //parte inferior
+ //lado esquerdo
+ */
+ p{
+    margin-top: 1px;  
+    margin-right: 50px;  
+    margin-bottom: 50px; 
+    margin-left: 20px; 
+
+}
+
+/*Aplicação abreviada da margem
+   //margin: 1px 50px  50px  20px;
+*/
+
+/*Aplicação unificada adiciona um valor unico a todos os lados
+  //margin; 50px;
+*/
+
+
+/* aplicação do enchimento lados pesonalizados
+ //topo
+ //lado direito
+ //parte inferior
+ //lado esquerdo
+ */
+
+ p{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+/* aplicação da borda lados pesonalizados
+//topo (red)
+//lado direito (yellow)  
+//parte inferior (black)
+//lado esquerdo (green)
+*/
+
+p{
+    border-width: 2px 3px 4px 3px;
+    border-color: red yellow blue green;
+    border-style: solid ;  /*estilo sólido*/
+    border-top-style: dashed ; /*estilo tracejado*/
+    border-bottom-style:dotted ; /*estilo pontilhado*/
+    border-left-style: double; /*estilo com linhas duplas*/
+}
+
+/*Aplicação abreviada da borda
+  //border: 10px solid red;
+*/
