@@ -1,0 +1,27 @@
+/*PROPRIEDADES DO BACKGROUND
+*COLOR
+*IMAGE
+*REPEAT
+*ATTACHMENT
+*POSITION
+
+*/
+
+body {
+    background-image: url(https://diegomariano.com/wp-content/uploads/2020/08/logo-2582747_640-e1597771254582.png); /*andiciona uma imagem ao fundo */
+    background-repeat: repeat; /*permite repetir a imagem */
+}
+
+div {
+    width: 320px; /*largura da caixa */
+    height: 320px; /*Altura da caixa*/
+    border: 2px solid black; /*borda da caixa em pixel estilo sólido*/
+
+    background-color: #31aaa4; /*cor de fundo da caixa*/
+    background-image: url(https://diegomariano.com/wp-content/uploads/2020/08/logo-2582747_640-e1597771254582.png); /*andiciona uma imagem ao fundo */
+    background-repeat: no-repeat; /*permite repetir a imagem */
+    background-attachment: fixed; /*Permite a junção da imagem do body e div */
+    background-position: 50% 50% ; /*permite o posicionamento da imagem na caixa*/
+
+}
+
