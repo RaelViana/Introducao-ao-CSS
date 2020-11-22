@@ -1,0 +1,13 @@
+/*PROPRIEDADES DE ESPAÇAMENTO E ALINHAMENTO*/
+p {
+    letter-spacing: 5px; /*aumenta  o espaçamento entre as letras*/
+    word-spacing: 3px; /*aumenta  o espaçamento entre as palavras*/
+    line-height: 30px; /*Controla o espaçamento entre as linhas do texto*/
+    text-align: center; /* Alinha o texto de acordo com a valor (esq,dir,centro ou justificado)*/
+    text-indent: 30px; /*define uma identação á primeira linha do texto*/
+
+}
+
+span {
+    vertical-align: sub; /* sub- deixa a palavra levemente abaixo enquanto sup- deixa acima*/
+}
