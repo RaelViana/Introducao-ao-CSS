@@ -1,0 +1,51 @@
+/*Estilização de Links 
+(pseudoclasses para links)
+- a:link >> estiliza o link no estado inicial
+- a:visited >> estiliza um link que foi visitado
+- a:hover  >> estiliza o link quando o mouse é passado sobre ele
+- a:active >> estiliza um link em que o usuario estiver clicando soble ele
+*/
+
+a {
+    text-decoration: none; /*remove a decoração underline padronizada nos links*/
+    color: #000000; /*altera a cor do link*/
+    background-color:#dddddd; /* insere uma cor de fundo ao bloco*/
+    border: 1px solid black; /*insere uma borda sólida ao link*/
+    width: 80px; /*ajusta a largura da borda*/
+    display: block; /*transforma  um elemento em bloco*/
+    padding: 3px 5px; /*cria um espaçamento entre o link e a borda*/
+    
+}
+
+a:hover {
+    color:#75e7fc; /*altera a cor o texto quando o mouse é passado sobre o link*/
+    background-color: black;/*altera a cor de fundo quando o mouse é passado sobre o link*/
+}
+
+    /*ADICIONANDO IMAGENS AO LADO DO LINK*/
+
+ /*seleciona href que começa com 'htpp'*/
+a[href^="htpp:"]{
+    background: url(/home/rael/Imagens/example.png) no-repeat right top;/*insere uma imagem ao lado direito superior do link*/
+    padding-right: 15px ; /*ajusta uma distancia em px do texto*/
+ }
+
+ /*seleciona href que começa com m*/
+ a[href^="mailto:"]{
+    background: url(/home/rael/Imagens/example.png) no-repeat right top;/*insere uma imagem ao lado direito superior do link*/
+    padding-right: 15px ; /*ajusta uma distancia em px do texto*/
+ }
+
+
+ /*seleciona href que começa com 'Zip'*/
+ a[href^=".zip"]{
+    background: url(/home/rael/Imagens/example.png) no-repeat right top;/*insere uma imagem ao lado direito superior do link*/
+    padding-right: 15px ; /*ajusta uma distancia em px do texto*/
+ }
+
+  /*LINK DE IMAGEM*/
+ a img {
+     border: none; /*exclui a borda padrão da img*/
+ }
+
+
