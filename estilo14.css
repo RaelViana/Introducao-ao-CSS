@@ -1,0 +1,15 @@
+/*Estilização de Cabeçalhos*/
+
+h1 {
+    border-top: 1px solid black; /*insere uma linha continua acima do texto 'h1'*/
+    border-bottom: 1px solid black; /*insere uma linha continua abaixo do texto 'h1'*/
+    background-color: #cccccc; /*insere uma cor de fundo no bloco 'h1'*/
+    border-left: 10px double black ; /*insere uma linha dupla á esquerda da do bloco 'h1'*/
+    padding-left: 36px; /*cria um espaçamento do texto à esquerda do bloco 'h1'*/
+    padding-bottom: 12px; /*cria um espaçamento do bloco (parte inferior)*/
+     
+    /*adiciona uma imagem ao fundo do bloco 'h1'*/
+    background-image:url(https://www.unicesumar.edu.br/wp-content/uploads/2018/03/877-icones-do-portal-13.png) ;
+    background-repeat: no-repeat; /*não permite que a imagem seja repetida no bloco 'h1'*/
+    background-position: 5px; /*posiciona a imagem (afasta da margem)*/
+}
