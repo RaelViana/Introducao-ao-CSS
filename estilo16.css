@@ -1,0 +1,9 @@
+ul {
+    list-style-type: georgian; /*Altera  o estilo da marcação inicial*/
+    list-style-image:url(/home/rael/Imagens/pl.png) ; /*insere uma imagem no lugar da marcação inicial*/ 
+    list-style-position: inside; /*Define a posição do Box que contém o marcador da lista*/
+}
+
+/*FORMA ABREVIADA DE MARCAÇÃO DA LISTA
+EX : >>list-style:none inside url(img/foto.png)<<
+*/
