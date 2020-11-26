@@ -1,0 +1,32 @@
+/*-------------------------------------------------------------------------*/
+
+/*POSICIONAMENTO(FLOAT) EX: */
+
+/*Elementos em bloco*/
+h1, h3, p {    
+    border: 1px solid black; /*Cria uma borda preta sólida nos elementos em bloco*/
+    width: 200px; /*ajusta a lagura do bloco*/
+    float: right; /*permite que o bloco flutue  para direita*/
+}
+
+img {
+    float: right; /* a imagem flutua mais à direita do bloco*/ 
+}
+
+#um{
+    clear: both; /*limpa a aplicação de ambos os floats*/
+}
+#dois{
+    clear: both;
+}
+
+p {
+    background-color: #dddddd; /*altera a cor de fuindo do parágrafo*/
+}
+
+span.destaque {
+    width: 40%; /*define a largura em percentual*/
+    float: right; /*permite que flutue à direita*/
+    background-color: white;
+    border: 1px solid black;
+}

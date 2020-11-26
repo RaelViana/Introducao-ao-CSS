@@ -1,0 +1,21 @@
+/*POSICIONAMENTO(ABSOLUTO) EX: */
+
+/*Elementos em bloco*/
+ h4 {
+    border: 1px solid black; 
+    width: 200px; /*Ajusta a largura*/
+}
+div {
+    border: 1px solid red;
+    position: relative;
+}
+
+#B {
+    position: absolute; /*cria um posicionamento absoluto do box em relação os pai 'div' */
+    left: 0px;
+    top: 20px;
+    background-color: #DDDDDD;
+}
+
+/*-------------------------------------------------------------------------*/
+

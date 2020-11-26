@@ -1,0 +1,35 @@
+
+/*POSICIONAMENTO(Z-INDEX) EX: */
+
+/*Elementos em bloco*/
+h4 {
+    border: 3px solid black; 
+}  
+
+#A {    
+    background-color: green;
+    width: 300px;
+    height: 80px;
+    position: fixed; /*sempre será nescessário o uso do 'position' para a aplicação do  'z-index'*/
+    left: 100px;
+    top: 100px;
+    z-index: 1; /*permite a sobreposicão do box decorrente ao grau do indice aplicado*/
+}
+
+#B {
+    background-color: yellow;
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    z-index: -2; /*permite a sobreposicão do box decorrente ao grau do indice aplicado*/
+
+}
+
+#C {
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    z-index: -1; /*permite a sobreposicão do box decorrente ao grau do indice aplicado*/
+
+}
