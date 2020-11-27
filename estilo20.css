@@ -1,0 +1,40 @@
+        /* >>>>>>>>>>>> LAYOUT 2 COLUNAS <<<<<<<<<<<<<<<< */ 
+
+  /* criando uma layout de pagina utilizando divs estruturais em duas colunas */
+  
+/*------------------------------------------------------------------------*/
+
+
+
+
+div {
+    border: 1px solid black;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 80px;
+    background: #DDDDDD;
+}
+
+#left {
+    float: left;
+    width: 130px;
+    background-color: rgb(47, 228, 219);
+}
+
+#content {
+    float: right;
+    width: 450px;
+    background-color: rgb(193, 152, 231);
+}
+
+#footer {
+    clear: both;
+}
+    
+
