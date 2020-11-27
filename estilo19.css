@@ -1,0 +1,44 @@
+        /* >>>>>>>>>>>> LAYOUT INTRODUÇAO TABLELESS <<<<<<<<<<<<<<<< */        
+
+        
+/*------------------------------------------------------------------------*/
+
+/* LAYOUT- fixo*/
+#container {
+    border: 1px solid black;
+    /* width: 500px;define a largura fixa de 500px*/
+    
+}
+/*------------------------------------------------------------------------*/
+
+/* LAYOUT- liquido*/
+ #container {
+     border: 1px solid black;
+     width: 80%; /* define a largura de 80% (ocupa 80% da tela independente do dispostivo*/
+     min-width: 300px; /*define uma largura mínima do container*/ 
+ }
+ /*------------------------------------------------------------------------*/
+
+/* LAYOUT- elastico (utiliza a  largura baseada na fonte) */
+
+* {
+    font-size: 12px;
+
+}
+#container {
+    border: 1px solid black;
+    width: 50em; /* define a largura em proporção a fonte */
+   
+}
+/*------------------------------------------------------------------------*/
+
+/* LAYOUT-centralização  */
+
+#container {
+    border: 1px solid black;
+    width: 90%; 
+   
+    margin: 5px auto; /*define uma distancia do topo, e o restante ajusta-se automatico ao monitor */
+}
+
+
