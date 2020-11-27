@@ -1,0 +1,54 @@
+     /* >>>>>>>>>>>> LAYOUT 3 COLUNAS <<<<<<<<<<<<<<<< */ 
+
+  /* criando uma layout de pagina utilizando divs estruturais em tres colunas */
+
+/*------------------------------------------------------------------------*/
+
+
+
+
+div {
+    border: 1px solid black;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 80px;
+    background-color: rgb(24, 47, 177);
+    color: white;
+}
+
+
+#left {
+    float: left;
+    width: 130px;
+    background-color: rgb(47, 228, 219);
+    color: rgb(3, 3, 3);
+}
+
+#content {
+    float: right;
+    width: 450px;
+    
+}
+
+#principal {
+    float: left;
+    width: 340px;
+    
+}
+
+#right {
+    float: right;
+    width: 100px;
+}
+
+#footer {
+    clear: both;
+}
+    
+
