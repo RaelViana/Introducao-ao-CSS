@@ -1,0 +1,18 @@
+
+   /*  >>BORDAS ARREDONDADAS E SOMBREAMENTO<<< */  
+  
+/*---------------------------------------------------------------------------*/
+
+
+
+/*insere arrendodamento e sombreamento em um box */
+
+ #container {
+    border: 2px solid ; /*borda solida */
+    width: 200px;  /*largura da borda*/
+    padding: 10px; /*distância o elemento da borda em pixel*/
+
+    border-radius: 10px; /*permite o arredondamento da borda*/
+    box-shadow: 10px 10px 5px #888888; /*insere um efeito de sombra ao fundo do box*/
+ }
+
