@@ -1,0 +1,35 @@
+
+
+  /*  >>CSS SPRITE<<< */
+  
+  /*essa tecnica conssiste em inserir uma imagem com outas dento de uma unica img
+  profissionalmente devemos evitar ao maximo as requisições ao servidor */
+
+/*---------------------------------------------------------------------------*/
+
+/*
+BENEFICIOS:
+AUMENTO DE PERFORMANCE
+AUMENTO DE VELOCIDADE DE CARREGAMENTO
+ */
+
+/*insere uma imagem e posiciona sobre um elemento a ser exibido */
+ .solucoes {
+     background: url(/home/rael/Imagens/sprite.jpg) -202px -198px; 
+     height: 96px;
+     width: 98px;
+ }
+
+ .servico {
+  background: url(/home/rael/Imagens/sprite.jpg) -5px -202px;
+  height: 96px;
+  width: 98px;
+}
+
+.responsabilidade {
+  background: url(/home/rael/Imagens/sprite.jpg) -104px -101px;
+  height: 96px;
+  width: 98px;
+}
+
+
